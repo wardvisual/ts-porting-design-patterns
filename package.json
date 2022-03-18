@@ -10,7 +10,9 @@
         "type": "git",
         "url": "https://github.com/wardvisual/ts-porting-design-patterns.git"
     },
-    "keywords": [],
+    "keywords": [
+        "typescript design patterns"
+    ],
     "author": "<wardvisual> Edward Fernandez",
     "license": "ISC",
     "devDependencies": {
