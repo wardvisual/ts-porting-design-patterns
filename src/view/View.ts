@@ -1,5 +1,7 @@
 import { Observer } from '../observer/Observer';
 
+/* The View class is an Observer that updates its output based on the variable passed to the update
+method */
 export class View implements Observer {
   private static TEMPLATE: string = '<h1>Hello ${variable}</h1>';
 

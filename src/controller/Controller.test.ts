@@ -7,6 +7,7 @@ import { ModelWithSubject } from '../model/strategy/ModelWithSubjects';
 import { BaseModel } from '../model/BaseModel';
 import { Subject } from 'observer/Subject';
 import { ObservableDecorator } from '../model/decorator/ObservableDecorator';
+
 describe('Controller', () => {
   it('Should let model notify the view (God)', () => {
     /* Given */

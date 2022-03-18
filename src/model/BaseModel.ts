@@ -1,5 +1,6 @@
 import { Model } from './Model';
 
+/* `BaseModel` is a class that implements the `Model` interface */
 export class BaseModel implements Model {
   private attribute!: string;
 

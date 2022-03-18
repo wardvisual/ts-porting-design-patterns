@@ -1,6 +1,7 @@
 import { Subject } from '../../observer/Subject';
 import { Model } from '../Model';
 
+/* A decorator that wraps a model and exposes an observable attribute. */
 export class ObservableDecorator extends Subject {
   private model: Model;
 

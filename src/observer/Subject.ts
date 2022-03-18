@@ -1,5 +1,7 @@
 import { Observer } from './Observer';
 
+/* The Subject class is a container for observers. It has a method that allows observers to be added to
+the container. It also has a method that notifies all observers that something has changed */
 export class Subject {
   private observers: Observer[];
 

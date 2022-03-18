@@ -2,6 +2,7 @@ import { Subject } from '../../observer/Subject';
 import { Observer } from '../../observer/Observer';
 import { Model } from '../Model';
 
+/* A model that has a subject. */
 export class ModelWithSubject implements Model {
   private attribute!: string;
   private subject: Subject;
